@@ -46,7 +46,7 @@ My current work is in multimodal biosignal decoding for assistive systems, chara
 
 More generally, I am motivated by AI as a tool for scientific discovery in domains where decisions have real-world and societal consequences. I care deeply about building systems that are not only capable, but robust, safe, and responsibly aligned with human needs.
 
-In my free time you may find me in going for long walks, training at the gym, playing the piano, or volunteering at my local animal rescue centre.
+In my free time you may find me going for long walks, training at the gym, playing the piano, or volunteering at my local animal rescue centre.
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
