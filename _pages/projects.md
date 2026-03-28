@@ -1,65 +1,66 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A selection of projects in academic and professional contexts.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
-horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+<div class="projects-list">
 
-{% else %}
+<div class="project-section">
+<h3 class="project-category">Ongoing</h3>
 
-<!-- Display projects without categories -->
+<a href="1_project_phase1_HEAT" class="project-card">
+  <div class="project-meta">Ongoing · AIMS CDT, Oxford Robotics Institute</div>
+  <div class="project-title">Characterising Control Roles in Multimodal Biosignals</div>
+  <div class="project-abstract">Characterising the control-relevant properties of EMG, EEG, IMU and gaze signals to build a principled framework for when each modality should be trusted, down-weighted, or overridden in assistive device control.</div>
+</a>
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+<a href="2_project_phase2_PNPL" class="project-card">
+  <div class="project-meta">Ongoing · Neural Processing Lab, University of Oxford</div>
+  <div class="project-title">Uncertainty-Aware Allocation of Multimodal Biosignals for Robust Control</div>
+  <div class="project-abstract">An uncertainty-aware control layer for adaptive modality allocation under signal degradation — maintaining stable assistive device control without defaulting to conservative system halts.</div>
+</a>
+</div>
 
-  <!-- Generate cards for each project -->
+<div class="project-section">
+<h3 class="project-category">Academic</h3>
 
-{% if page.horizontal %}
+<a href="3_project_msc_gat_lstm" class="project-card">
+  <div class="project-meta">MSc Thesis · Durham University · 2025</div>
+  <div class="project-title">Groundwater Forecasting in Sparse Sensor Networks</div>
+  <div class="project-abstract">Hybrid GAT-LSTM architecture for predicting groundwater levels at ungauged locations, achieving median KGE 0.676 across a rigorous leave-one-station-out protocol — with performance stratification by bedrock flow type providing a principled account of where and why the model fails.</div>
+</a>
 
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
+<a href="5_project_architecture_thesis" class="project-card">
+  <div class="project-meta">MA Thesis · University of Edinburgh · 2024</div>
+  <div class="project-title">Urban-Scale Modelling for a Net-Zero Scotland</div>
+  <div class="project-abstract">Feature-based intersection clustering of Edinburgh's domestic building stock into 12 retrofit typologies, mapped spatially across the city and linked directly to existing government funding schemes via a resident-facing eligibility prototype.</div>
+</a>
+
+<a href="4_project_hyped" class="project-card">
+  <div class="project-meta">Academic · University of Edinburgh HYPED Team · 2024</div>
+  <div class="project-title">Hyperloop Simulations Engineering</div>
+  <div class="project-abstract">Multi-scale CFD and solid mechanics simulations to identify high-risk failure points in a Hyperloop prototype, reducing manufacturing waste by over 30% through simulation-informed design iteration.</div>
+</a>
+</div>
+
+<div class="project-section">
+<h3 class="project-category">Professional</h3>
+
+<a href="6_project_wolfwyse" class="project-card">
+  <div class="project-meta">Professional · Wolfwyse Ltd. · 2021–2025</div>
+  <div class="project-title">Production Scheduling & Optimisation Systems</div>
+  <div class="project-abstract">Production-grade scheduling and optimisation for multinational food and pharmaceutical manufacturers (incl. MARS, GSK), combining constraint-based methods and evolutionary algorithms to reduce multi-day planning tasks to minutes in safety-critical production environments.</div>
+</a>
+
+<a href="7_project_hildreth" class="project-card">
+  <div class="project-meta">Professional · J P Hildreth Ltd. · 2018–2023</div>
+  <div class="project-title">Facility Modelling for Regulated Manufacturing</div>
+  <div class="project-abstract">Quantitative spatial and operational modelling for regulated food and pharmaceutical manufacturing facilities (incl. GSK, Mars Chocolate), translating complex facility constraints into prioritised production scenarios.</div>
+</a>
+</div>
+
 </div>

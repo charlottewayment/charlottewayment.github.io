@@ -1,12 +1,11 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post about-page">
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
       {% else %}
         {{ site.title }}
       {% endif %}
@@ -14,67 +13,99 @@ layout: default
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
-  <article>
+  <article class="about-grid">
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      <aside class="profile">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
+          {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true %}
         {% endif %}
+
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
-      </div>
+      </aside>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
-
-    <!-- News -->
-    {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
-
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
-
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
-
-    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-      {% include newsletter.liquid center=true %}
-    {% endif %}
+    <section class="about-content">
+      {{ content }}
+    </section>
   </article>
+
+  <!-- News -->
+  {% if page.announcements and page.announcements.enabled %}
+    <h2>
+      <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+    </h2>
+    {% include news.liquid limit=true %}
+  {% endif %}
+
+  <!-- Latest posts -->
+  {% if page.latest_posts and page.latest_posts.enabled %}
+    <h2>
+      <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+    </h2>
+    {% include latest_posts.liquid %}
+  {% endif %}
+
+  <!-- Selected papers -->
+  {% if page.selected_papers %}
+    <h2>
+      <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+    </h2>
+    {% include selected_papers.liquid %}
+  {% endif %}
+
+  <!--- Selected Projects -->
+  {% if page.projects %}
+    <div class="featured-projects-wrapper">
+      <div class="featured-projects-heading">Featured<br>Projects</div>
+      <div class="featured-projects-cards about-cards"> 
+        <a href="1_project_phase1_HEAT" class="project-card">
+          <div class="project-meta">Ongoing · AIMS CDT, Oxford Robotics Institute</div>
+          <div class="project-title">Characterising Control Roles in Multimodal Biosignals</div>
+          <div class="project-abstract">Characterising the control-relevant properties of EMG, EEG, IMU and gaze signals to build a principled framework for when each modality should be trusted, down-weighted, or overridden in assistive device control.</div>
+        </a>
+
+        <a href="2_project_phase2_PNPL" class="project-card">
+          <div class="project-meta">Ongoing · Neural Processing Lab, University of Oxford</div>
+          <div class="project-title">Uncertainty-Aware Allocation of Multimodal Biosignals for Robust Control</div>
+          <div class="project-abstract">An uncertainty-aware control layer for adaptive modality allocation under signal degradation — maintaining stable assistive device control without defaulting to conservative system halts.</div>
+        </a>
+
+        <a href="3_project_msc_gat_lstm" class="project-card">
+          <div class="project-meta">MSc Thesis · Durham University · 2025</div>
+          <div class="project-title">Groundwater Forecasting in Sparse Sensor Networks</div>
+          <div class="project-abstract">Hybrid GAT-LSTM architecture for predicting groundwater levels at ungauged locations, achieving median KGE 0.676 across a rigorous leave-one-station-out protocol — with performance stratification by bedrock flow type providing a principled account of where and why the model fails.</div>
+        </a>
+
+        <a href="6_project_wolfwyse" class="project-card">
+          <div class="project-meta">Professional · Wolfwyse Ltd. · 2021–2025</div>
+          <div class="project-title">Production Scheduling & Optimisation Systems</div>
+          <div class="project-abstract">Production-grade scheduling and optimisation for multinational food and pharmaceutical manufacturers (incl. MARS, GSK), combining constraint-based methods and evolutionary algorithms to reduce multi-day planning tasks to minutes in safety-critical production environments.</div>
+        </a>
+        <p class="project-more">
+          <a href="{{ '/projects/' | relative_url }}">View all projects →</a>
+        </p>
+      </div>
+    </div>
+  {% endif %}
+
+  <!-- Social -->
+  {% if page.social %}
+    <div class="social">
+      <div class="contact-icons">{% social_links %}</div>
+      <div class="contact-note">{{ site.contact_note }}</div>
+    </div>
+  {% endif %}
+
+  {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+    {% include newsletter.liquid center=true %}
+  {% endif %}
 </div>

@@ -259,3 +259,243 @@ ul.task-list input[type="checkbox"] {
 .d2h-diff-table {
   position: relative;
 }
+
+// Text under profile picture
+
+.profile .profile-text {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.profile .profile-text div,
+.profile .profile-text span,
+.profile .profile-text p {
+  color: #6c6c6c;
+}
+
+.profile .profile-text div {
+  margin-bottom: 0.2rem;
+}
+
+.profile .profile-text .email {
+  margin-top: 0.6rem;
+  font-size: 0.95rem;
+}
+
+
+// Subtitle Separation
+
+.sep {
+  margin: 0 0.4rem;
+}
+
+.about-page .post-header .desc {
+  margin-bottom: 2rem;
+}
+
+// Biography alignment
+
+.about-page .about-grid {
+  display: grid;
+  grid-template-columns: clamp(160px, 18vw, 260px) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
+}
+
+.about-page .profile {
+  float: none;
+  margin: 0;
+  width: 100%;
+  display: block;
+}
+
+.about-page .profile figure {
+  display: block;
+  margin: 0 auto 1.5rem auto;
+}
+
+.about-page .more-info,
+.about-page .profile-text {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.about-page .profile-text > * {
+  margin: 0.25rem 0;
+}
+
+// about page on mobile
+
+@media (max-width: 768px) {
+  .about-page .about-grid {
+    display: block;
+  }
+
+  .about-page .profile {
+    margin: 0 auto 1.5rem;
+    text-align: center;
+  }
+
+  .about-page .profile figure img {
+    width: 70%;
+    max-width: 220px; // cap so doesn't get huge
+    margin: 0 auto;
+  }
+
+  .about-page .post-header .desc {
+    text-align: center;
+  }
+
+  .about-page .more-info {
+    width: 90%;
+  }
+}
+
+// news section
+
+.about-page > h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e6e6e6;
+}
+
+.about-page > h2 a {
+  color: inherit;
+}
+
+.about-page .news {
+  margin-top: 0;
+}
+
+.about-page .news > div {
+  padding: 1rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.about-page .news > div:last-child {
+  border-bottom: 0;
+}
+
+.about-page h2, // separate this out if title different colour
+.about-page .news,
+.about-page .news p,
+.about-page .news div,
+.about-page .news span {
+  color: #535353;
+}
+
+.about-page .news a {
+  color: var(--global-theme-color);
+}
+
+// ── Project Cards (shared base) ──
+
+a.project-card {
+  display: block;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 0.75rem;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .project-meta {
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.35rem;
+  }
+
+  .project-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--global-text-color);
+  }
+
+  .project-abstract {
+    font-size: 0.9rem;
+    color: var(--global-text-color);
+    line-height: 1.6;
+  }
+}
+
+// ── Projects Page ──
+
+.projects-list {
+  a.project-card {
+    width: 80%;
+    margin-left: auto;
+  }
+}
+
+.project-section {
+  margin-bottom: 2.5rem;
+}
+
+.project-category {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--global-text-color-light);
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+// ── About Page Featured Projects ──
+
+.featured-projects-wrapper {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e6e6e6;
+  width: 100%;
+}
+
+.featured-projects-heading {
+  width: 17%;
+  flex-shrink: 0;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #535353;
+  padding-top: 0.5rem;
+}
+
+.featured-projects-cards {
+  flex: 1;
+  min-width: 0;
+  width: 0;
+
+  a.project-card {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.project-more {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  text-align: right;
+
+  a {
+    color: var(--global-theme-color);
+  }
+}
