@@ -499,3 +499,25 @@ a.project-card {
     color: var(--global-theme-color);
   }
 }
+
+@media (max-width: 576px) {
+  // About page - stack heading and cards vertically
+  .featured-projects-wrapper {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .featured-projects-heading {
+    width: 100%;
+  }
+
+  .featured-projects-cards {
+    width: 100%;
+  }
+
+  // Projects page - cards full width
+  .projects-list a.project-card {
+    width: 100%;
+    margin-left: 0;
+  }
+}
