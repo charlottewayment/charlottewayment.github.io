@@ -10,7 +10,7 @@ related_publications: false
 
 **Supervised by:** Dr Julia Knapp, Durham University  
 **Thesis grade:** 89% — First in Year  
-**Award:** Nominee, The Curry Prize for best MSc Thesis in an earth sciences application in the UK (2026)  
+**Award:** Winner, The Curry Prize for best MSc Thesis in an earth sciences application in the UK (2026)  
 **HPC:** Durham University NVIDIA CUDA Centre (NCC)  
 **Status:** Completed — Master of Data Science, Durham University
 
