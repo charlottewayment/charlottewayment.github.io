@@ -11,7 +11,7 @@ category: professional
 **Period:** 2021 – 2025  
 **Category:** Professional
 
-From 2021 to 2025, alongside my undergraduate and postgraduate studies, I worked as a Python software and ML engineer at Wolfwyse Ltd., designing and deploying optimisation systems for large-scale manufacturing environments. Clients operated across food and pharmaceutical industries — including MARS and GSK — processing multiple millions of pounds of goods each week across multinational facilities.
+From 2021 to 2025, alongside my undergraduate and postgraduate studies, I worked as a Python software and ML engineer at Wolfwyse Ltd., designing and deploying optimisation systems for large-scale manufacturing environments. Clients operated across food and pharmaceutical industries, including MARS and GSK, processing multiple millions of pounds of goods each week across multinational facilities.
 
 The core challenge in these settings are the highly constrained, interdependent processes operating under real-world uncertainty, where a poor scheduling decision has immediate and costly downstream consequences - all familiar challenges from a systems perspective. The work required translating the complex operational realities of resource contention, sequencing dependencies, regulatory constraints, and failure modes into tractable computational models.
 
