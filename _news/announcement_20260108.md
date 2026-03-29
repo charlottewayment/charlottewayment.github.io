@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**Award Confirmation:** I have graduated from the University of Durham with and Master of Data Science, where I received the Master of Data Science Award for achieving the highest performance across graduating students from all Data Science master's streams, with a grade average of 86%.
+**Award Confirmation:** I have graduated from the University of Durham with a Master of Data Science, additionally receiving the Master of Data Science Award for achieving the highest performance across graduating students from all Data Science master's streams, with a grade average of 86%.
