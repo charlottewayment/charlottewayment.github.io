@@ -13,7 +13,7 @@ nav_order: 1
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: prof_pic_1_square.png  # check .png vs .jpg
   image_circular: true # crops the image to make it circular
   more_info: |
     <div class="profile-text">
