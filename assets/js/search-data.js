@@ -98,11 +98,6 @@ ninja.data = [{
           description: "Principled fusion frameworks for assistive systems (Phase 1, HEAT Lab)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project_phase1_HEAT/";
-            },},{id: "projects-uncertainty-aware-allocation-of-multimodal-biosignals-for-robust-control",
-          title: 'Uncertainty-Aware Allocation of Multimodal Biosignals for Robust Control',
-          description: "Adaptive signal weighting for assistive devices under degradation (Phase 2, PNPL)",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project_phase2_PNPL/";
             },},{id: "projects-groundwater-forecasting-in-sparse-sensor-networks",
           title: 'Groundwater Forecasting in Sparse Sensor Networks',
           description: "GAT-LSTM for spatio-temporal prediction at ungauged sites (MSc Thesis, Durham)",
