@@ -15,7 +15,7 @@ nav_order: 3
 <a href="1_project_phase1_HEAT" class="project-card">
   <div class="project-meta">Ongoing · AIMS CDT, Oxford Robotics Institute</div>
   <div class="project-title">Characterising Control Roles in Multimodal Biosignals</div>
-  <div class="project-abstract">Characterising the control-relevant properties of EMG, EEG, IMU and gaze signals to build a principled framework for when each modality should be trusted, down-weighted, or overridden in assistive device control.</div>
+  <div class="project-abstract">Characterising the control-relevant properties of multimodal biosignals to build a principled framework for when each modality should be trusted, down-weighted, or overridden in assistive device control.</div>
 </a>
 
 <!-- <a href="2_project_phase2_PNPL" class="project-card">
