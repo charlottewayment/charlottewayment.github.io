@@ -18,12 +18,12 @@ nav_order: 3
   <div class="project-abstract">Characterising the control-relevant properties of EMG, EEG, IMU and gaze signals to build a principled framework for when each modality should be trusted, down-weighted, or overridden in assistive device control.</div>
 </a>
 
-<a href="2_project_phase2_PNPL" class="project-card">
+<!-- <a href="2_project_phase2_PNPL" class="project-card">
   <div class="project-meta">Ongoing · Neural Processing Lab, University of Oxford</div>
   <div class="project-title">Uncertainty-Aware Allocation of Multimodal Biosignals for Robust Control</div>
   <div class="project-abstract">An uncertainty-aware control layer for adaptive modality allocation under signal degradation — maintaining stable assistive device control without defaulting to conservative system halts.</div>
 </a>
-</div>
+</div> -->
 
 <div class="project-section">
 <h3 class="project-category">Academic</h3>
