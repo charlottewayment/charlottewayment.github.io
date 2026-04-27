@@ -3,9 +3,9 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-  Robust Contol
+  Uncertainty-Aware Control
   <span class="sep">|</span>
-  Neural Decoding
+  Biosignal Decoding
   <span class="sep">|</span>
   Biomedical Robotics
 nav: true
@@ -38,15 +38,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a DPhil (PhD) Student on the <a href="https://aims.robots.ox.ac.uk/">AIMS CDT</a> at the University of Oxford, currently working in the <a href="https://ori.ox.ac.uk/">Oxford Robotics Institute</a> under the co-supervision of <a href="https://ori.ox.ac.uk/people/digby-chappell">Digby Chappell</a> <a href="https://ori.ox.ac.uk/groups/heat">(HEAT)</a> and <a href="https://eng.ox.ac.uk/people/oiwi-parker-jones">Oiwi Parker Jones</a> <a href="https://neural-processing-lab.github.io/">(PNPL)</a>.
+I am a DPhil (PhD) student on the <a href="https://aims.robots.ox.ac.uk/">AIMS CDT</a> at the University of Oxford, currently working in the <a href="https://ori.ox.ac.uk/">Oxford Robotics Institute</a> under the co-supervision of <a href="https://ori.ox.ac.uk/people/digby-chappell">Digby Chappell</a> <a href="https://ori.ox.ac.uk/groups/heat">(HEAT)</a> and <a href="https://eng.ox.ac.uk/people/oiwi-parker-jones">Oiwi Parker Jones</a> <a href="https://neural-processing-lab.github.io/">(PNPL)</a>.
 
-My research spans the disciplines of machine learning, control and human-machine interaction, with a focus on how we can build AI systems that don’t just perform well in idealised lab conditions, but remain reliable when deployed in real-world and safety-critical settings.
+My current work is in multimodal biosignal decoding for assistive systems, investigating how different signal sources contribute to control under uncertainty and degradation. My focus is on understanding when and how these systems fail, and designing control strategies using multimodal signal ensembles that are robust under these conditions. The overarching goal is to build technology that extends a person's physical capacity and independence while keeping the user in the control loop.
 
-My current work is in multimodal biosignal decoding for assistive systems, characterising how different signal sources contribute to control under uncertainty and degradation. My focus is on understanding when and how these systems fail, and designing control strategies using multimodal signal ensembles that are robust around those failure modes. The overarching goal is to build technology that extends a person's physical capacity and independence while keeping the user in the control loop.
+More broadly, I am interested in building AI systems that are rigorously characterised at the edges of their competence, not just at their best. This is particularly important in safety-critical settings, where the cost of overconfidence falls on the user rather than the system.
 
-More generally, I am motivated by AI as a tool for scientific discovery in domains where decisions have real-world and societal consequences. I care deeply about building systems that are not only capable, but robust, safe, and responsibly aligned with human needs.
+I am also committed to research that aligns with human need as a starting point rather than a downstream consequence, working closely with the communities a technology is intended to serve, remaining honest about system limitations, and treating deployment as a core component of the research process.
 
-In my free time you may find me going for long walks, training at the gym, playing the piano, or volunteering at my local animal rescue centre.
+In my free time, you may find me going for long walks, training at the gym, playing the piano, or volunteering at my local animal rescue centre.
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
