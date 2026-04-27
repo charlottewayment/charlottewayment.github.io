@@ -3,7 +3,7 @@ layout: page
 title: Hyperloop Simulations Engineering
 description: CFD and structural simulation for prototype development (University of Edinburgh HYPED Team)
 img: assets/img/hyped_cover.jpg
-importance: 4
+importance: 3
 category: academic
 ---
 

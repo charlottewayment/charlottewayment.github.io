@@ -3,7 +3,7 @@ layout: page
 title: Urban-Scale Modelling for a Net-Zero Scotland
 description: Cluster-based retrofit planning for Edinburgh's domestic building stock (MA Thesis, University of Edinburgh)
 img: assets/img/edinburgh_cover.jpg
-importance: 5
+importance: 4
 category: academic
 ---
 

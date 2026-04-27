@@ -3,7 +3,7 @@ layout: page
 title: Facility Modelling for Regulated Manufacturing
 description: Applied optimisation and spatial modelling for food and pharmaceutical production (J P Hildreth Ltd.)
 img: assets/img/hildreth_cover.jpg
-importance: 7
+importance: 6
 category: professional
 ---
 

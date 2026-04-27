@@ -3,7 +3,7 @@ layout: page
 title: Production Scheduling & Optimisation Systems
 description: ML and constraint-based optimisation for safety-critical manufacturing (Wolfwyse Ltd.)
 img: assets/img/wolfwyse_cover.jpg
-importance: 6
+importance: 5
 category: professional
 ---
 

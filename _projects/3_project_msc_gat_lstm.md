@@ -3,7 +3,7 @@ layout: page
 title: Groundwater Forecasting in Sparse Sensor Networks
 description: GAT-LSTM for spatio-temporal prediction at ungauged sites (MSc Thesis, Durham)
 img: assets/img/gat_lstm_cover.jpg
-importance: 3
+importance: 2
 category: completed
 related_publications: false
 ---
