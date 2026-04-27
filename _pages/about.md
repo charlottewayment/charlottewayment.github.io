@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-  Building AI Systems for Scientific Discovery
+  Robust Contol
   <span class="sep">|</span>
   Neural Decoding
   <span class="sep">|</span>
