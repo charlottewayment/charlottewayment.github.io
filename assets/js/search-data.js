@@ -80,7 +80,7 @@ ninja.data = [{
           section: "News",},{id: "news-award-confirmation-i-was-awarded-the-uk-geologist-s-association-curry-msc-prize-2026-awarded-for-the-best-msc-thesis-in-an-earth-sciences-application-in-the-uk-for-my-thesis-on-groundwater-modelling-using-gat-lstm-networks-in-sparse-and-ungauged-catchments",
           title: 'Award Confirmation: I was awarded the UK Geologist’s Association Curry MSc Prize 2026...',
           description: "",
-          section: "News",},{id: "news-award-confirmation-i-was-awarded-the-inaugural-trinity-college-oxford-marconi-moseley-postgraduate-research-prize-for-my-work-on-biosignal-decoding-for-robust-uncertainty-aware-assistive-device-control-the-judges-highlighted-a-shared-willingness-to-question-established-practices-a-field-has-come-to-accept-as-settled-and-to-redefine-progress-as-a-key-strength-of-the-work-an-approach-that-continues-to-motivate-and-inform-my-research",
+          section: "News",},{id: "news-award-confirmation-i-was-awarded-the-inaugural-trinity-college-oxford-marconi-moseley-postgraduate-research-scholarship-for-science-in-the-service-of-humanity-for-my-work-on-biosignal-decoding-for-robust-uncertainty-aware-assistive-device-control-the-judges-highlighted-a-shared-willingness-to-question-established-practices-a-field-has-come-to-accept-as-settled-and-to-redefine-progress-as-a-key-strength-of-the-work-an-approach-that-continues-to-motivate-and-inform-my-research",
           title: 'Award Confirmation: I was awarded the inaugural Trinity College Oxford Marconi-Moseley Postgraduate Research...',
           description: "",
           section: "News",},{id: "projects-project-1",
