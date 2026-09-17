@@ -14,8 +14,8 @@ nav_order: 3
 
 <a href="1_project_phase1_HEAT" class="project-card">
   <div class="project-meta">Ongoing · AIMS CDT, Oxford Robotics Institute</div>
-  <div class="project-title">Characterising Control Roles in Multimodal Biosignals</div>
-  <div class="project-abstract">Characterising the control-relevant properties of multimodal biosignals to build a principled framework for when each modality should be trusted, down-weighted, or overridden in assistive device control.</div>
+  <div class="project-title">Reliability-Aware Multimodal Control Under Signal Degradation</div>
+  <div class="project-abstract">Developing reliability-aware multimodal control for assistive systems, with a focus on identifying and responding to signal degradation and failure without requiring explicit failure classification.</div>
 </a>
 
 <!-- <a href="2_project_phase2_PNPL" class="project-card">
