@@ -1,18 +1,20 @@
 ---
 layout: page
-title: Characterising Control Roles in Multimodal Biosignals
-description: Principled fusion frameworks for assistive systems (Phase 1, HEAT Lab)
+title: Reliability-Aware Multimodal Control Under Signal Degradation
+description: Robust multimodal fusion for assistive systems (Phase 1, HEAT Lab)
 img: assets/img/phase1_cover.jpg
 importance: 1
 category: ongoing
 ---
 
-**Supervisors:** [Digby Chappell](https://ori.ox.ac.uk/people/digby-chappell) (HEAT), [Oiwi Parker Jones](https://eng.ox.ac.uk/people/oiwi-parker-jones) (PNPL)  
+**Supervisor:** [Digby Chappell](https://ori.ox.ac.uk/people/digby-chappell) (HEAT)
 **Lab:** [Human-Centred Autonomy and Technology (HEAT)](https://ori.ox.ac.uk/groups/heat), Oxford Robotics Institute  
 **Status:** Ongoing
 
-Multimodal biosignal control systems are typically evaluated on aggregate accuracy under controlled conditions. Yet for the people relying on assistive devices, the conditions that matter most are the ones least represented in standard evaluation: signal degradation, perturbation, and rapid changes in intent.
+Multimodal control systems are typically evaluated under nominal operating conditions, yet performance can drop substantially when individual information sources degrade or fail. For assistive systems, identifying and responding to these changes online is particularly important because unreliable inputs directly affect downstream control.
 
-This project, jointly developed within the HEAT and PNPL labs at the Oxford Robotics Institute, investigates the use of multimodal biosignals for assistive device control, with a particular focus on robustness under realistic deployment conditions. It forms part of a broader DPhil programme on multimodal systems that extend a person's physical capacity and independence while keeping the user meaningfully in the control loop.
+This project develops a reliability-aware framework for multimodal control under signal degradation and failure, demonstrated through powered-wheelchair control using biosignal inputs. Rather than relying on single system-level measures of uncertainty, the framework decomposes modality reliability across distinct failure modes in the information pathway, allowing it to adapt each modality's contribution to control without requiring explicit failure classification.
 
-More information coming soon!...
+Ongoing work is investigating how these reliability estimates can remain calibrated under longer-term non-stationarity and changing deployment conditions.
+
+_Manuscript in preparation._
