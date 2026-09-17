@@ -93,9 +93,9 @@ ninja.data = [{
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12_project/";
-            },},{id: "projects-characterising-control-roles-in-multimodal-biosignals",
-          title: 'Characterising Control Roles in Multimodal Biosignals',
-          description: "Principled fusion frameworks for assistive systems (Phase 1, HEAT Lab)",
+            },},{id: "projects-reliability-aware-multimodal-control-under-signal-degradation",
+          title: 'Reliability-Aware Multimodal Control Under Signal Degradation',
+          description: "Robust multimodal fusion for assistive systems (Phase 1, HEAT Lab)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project_phase1_HEAT/";
             },},{id: "projects-groundwater-forecasting-in-sparse-sensor-networks",
