@@ -53,14 +53,13 @@ nav_order: 3
 <a href="6_project_wolfwyse" class="project-card">
   <div class="project-meta">Professional · Wolfwyse Ltd. · 2021–2025</div>
   <div class="project-title">Production Scheduling & Optimisation Systems</div>
-  <div class="project-abstract">Production-grade scheduling and optimisation for multinational food and pharmaceutical manufacturers (incl. MARS, GSK), combining constraint-based methods and evolutionary algorithms to reduce multi-day planning tasks to minutes in safety-critical production environments.</div>
+  <div class="project-abstract">Production-grade scheduling software combining constraint-based optimisation and evolutionary algorithms to translate complex operational requirements into feasible schedules, reducing multi-day planning tasks to minutes.</div>
 </a>
 
 <a href="7_project_hildreth" class="project-card">
   <div class="project-meta">Professional · J P Hildreth Ltd. · 2018–2023</div>
-  <div class="project-title">Facility Modelling for Regulated Manufacturing</div>
-  <div class="project-abstract">Quantitative spatial and operational modelling for regulated food and pharmaceutical manufacturing facilities (incl. GSK, Mars Chocolate), translating complex facility constraints into prioritised production scenarios.</div>
+  <div class="project-title">Facility & Operational Modelling for Regulated Manufacturing</div>
+  <div class="project-abstract">Quantitative modelling of spatially and operationally constrained food and pharmaceutical facilities, translating physical layouts, production requirements and regulatory constraints into prioritised design and production scenarios.</div>
 </a>
-</div>
 
 </div>
