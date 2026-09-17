@@ -38,7 +38,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a DPhil (PhD) student on the <a href="https://aims.robots.ox.ac.uk/">AIMS CDT</a> at the University of Oxford, currently working in the <a href="https://ori.ox.ac.uk/">Oxford Robotics Institute</a> under the co-supervision of <a href="https://ori.ox.ac.uk/people/digby-chappell">Digby Chappell</a> <a href="https://ori.ox.ac.uk/groups/heat">(HEAT)</a> and <a href="https://eng.ox.ac.uk/people/oiwi-parker-jones">Oiwi Parker Jones</a> <a href="https://neural-processing-lab.github.io/">(PNPL)</a>.
+I am a DPhil (PhD) student on the <a href="https://aims.robots.ox.ac.uk/">AIMS CDT</a> at the University of Oxford, currently working in the <a href="https://ori.ox.ac.uk/">Oxford Robotics Institute</a> under the supervision of <a href="https://ori.ox.ac.uk/people/digby-chappell">Digby Chappell</a> <a href="https://ori.ox.ac.uk/groups/heat">(HEAT)</a>.
 
 My current work is in multimodal biosignal decoding for assistive systems, investigating how different signal sources contribute to control under uncertainty and degradation. My focus is on understanding when and how these systems fail, and designing control strategies using multimodal signal ensembles that are robust under these conditions. The overarching goal is to build technology that extends a person's physical capacity and independence while keeping the user in the control loop.
 
