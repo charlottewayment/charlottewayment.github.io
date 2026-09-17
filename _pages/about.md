@@ -40,9 +40,9 @@ latest_posts:
 
 I am a DPhil (PhD) student on the <a href="https://aims.robots.ox.ac.uk/">AIMS CDT</a> at the University of Oxford, currently working in the <a href="https://ori.ox.ac.uk/">Oxford Robotics Institute</a> under the supervision of <a href="https://ori.ox.ac.uk/people/digby-chappell">Digby Chappell</a> <a href="https://ori.ox.ac.uk/groups/heat">(HEAT)</a>.
 
-My current work is in multimodal biosignal decoding for assistive systems, investigating how different signal sources contribute to control under uncertainty and degradation. My focus is on understanding when and how these systems fail, and designing control strategies using multimodal signal ensembles that are robust under these conditions. The overarching goal is to build technology that extends a person's physical capacity and independence while keeping the user in the control loop.
+My current work develops reliability-aware methods for multimodal control in assistive robotic systems, with a focus on how different sources of information contribute to control under uncertainty, degradation and failure. I am particularly interested in understanding when and how these systems become unreliable, and in developing approaches that can identify and respond to failures across the information pathway. The overarching goal is to build technology that extends a person’s physical capacity and independence while preserving user agency.
 
-More broadly, I am interested in building AI systems that are rigorously characterised at the edges of their competence, not just at their best. This is particularly important in safety-critical settings, where the cost of overconfidence falls on the user rather than the system.
+More broadly, I am interested in building AI systems that are rigorously characterised at the edges of their competence, not just at their best. This is particularly important in safety-critical settings, where the consequences of overconfidence are often borne by the user.
 
 I am also committed to research that aligns with human need as a starting point rather than a downstream consequence, working closely with the communities a technology is intended to serve, remaining honest about system limitations, and treating deployment as a core component of the research process.
 
