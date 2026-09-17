@@ -5,7 +5,7 @@ permalink: /
 subtitle: >
   Uncertainty-Aware Control
   <span class="sep">|</span>
-  Biosignal Decoding
+  Biosignal Fusion
   <span class="sep">|</span>
   Biomedical Robotics
 nav: true
