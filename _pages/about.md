@@ -38,7 +38,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a DPhil (PhD) student on the <a href="https://aims.robots.ox.ac.uk/">AIMS CDT</a> at the University of Oxford, currently working in the in the <a href="https://ori.ox.ac.uk/groups/heat">Human Enhancing and Augmenting Technology Lab</a> at the <a href="https://ori.ox.ac.uk/">Oxford Robotics Institute</a> under the supervision of Professor <a href="https://ori.ox.ac.uk/people/digby-chappell">Digby Chappell</a>.
+I am a DPhil (PhD) student on the <a href="https://aims.robots.ox.ac.uk/">AIMS CDT</a> at the University of Oxford, currently working in the <a href="https://ori.ox.ac.uk/groups/heat">Human Enhancing and Augmenting Technology Lab</a> at the <a href="https://ori.ox.ac.uk/">Oxford Robotics Institute</a> under the supervision of Professor <a href="https://ori.ox.ac.uk/people/digby-chappell">Digby Chappell</a>.
 
 My current work develops reliability-aware methods for multimodal control in assistive robotic systems, with a focus on how different sources of information contribute to control under uncertainty, degradation and failure. I am particularly interested in understanding when and how these systems become unreliable, and in developing approaches that can identify and respond to failures across the information pathway. The overarching goal is to build technology that extends a person’s physical capacity and independence while preserving user agency.
 
